@@ -1,0 +1,9 @@
+Group Project Log
+06/16/2020
+We have completed our SRS Document and made diagrams for the following:
+-	The UML diagram
+-	The Class diagram
+-	The Sequence Diagram
+We have collaborated and split up the work based on who was interested in which aspects of the project.
+I, Mohammed Abbas, have joined with two other members of my group to do the Client portion of the project.
+We have made a GitHub account and made a repository to collect all of our future work. 
