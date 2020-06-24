@@ -1,0 +1,4 @@
+06/24/2020
+Our group has made a uml diagram of the project flow structure. we have also created a simple java program to test
+the server side of the application. we have made improvments to our SRS document and updated our schedule. in the
+future we want to build some command line interface to test our code.
