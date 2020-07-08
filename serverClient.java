@@ -2,7 +2,8 @@ package server1;
 import java.io.*; 
 import java.util.*; 
 import java.net.*; 
-public abstract class serverClient implements Runnable{
+	
+public class serverClient implements Runnable{
 	Scanner sc = new Scanner(System.in);
 	private String name;
 	final DataInputStream di;
@@ -39,7 +40,16 @@ public abstract class serverClient implements Runnable{
 				String recpt = st.nextToken();
 				
 				
-				for(serverClient sc : )
+				for(serverClient sc : Server1.vec1)
+				{
+					
+					if(sc.name.equals(rec) && sc.logged == true)
+					{
+						sc.dos.writeUTF(this.name + " : " + msg);
+						break;
+					}
+				
+				}
 				
 			}
 			catch(IOException e)
