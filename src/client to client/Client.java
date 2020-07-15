@@ -1,24 +1,20 @@
 
 import java.io.*;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Client {
-
     public static void main(String[] args) throws IOException {
-        if (args.length<2)
+        if (args.length<3)
         {
-            System.err.println ("Usage: client user pwd");
+            System.err.println ("Usage: client host user pwd");
         }
-        String cred = String.format("%s~%s", args[0], args[1]);
+        String cred = String.format("%s~%s", args[1], args[2]);
         Scanner sc= new Scanner(System.in); //System.in is a standard input stream.
-        System.out.print("Enter the port number to connect to: <7777>");
-        int port = sc.nextInt();
-		//int port = 9999;
-		System.out.print("Enter the host address to connect to: <localhost> ");
-        String host = sc.next();
+        //System.out.print("Enter the port number to connect to: <7777>");
+        int port = 9999;//sc.nextInt();
+        String host = args[0];//sc.next();
 
         // Connect to the ServerSocket at host:port
         Socket socket = new Socket(host, port);
@@ -41,43 +37,27 @@ public class Client {
         // List of Message objects
         List<Message> messages = null; //new ArrayList<>();
  //       messages.add(new Message("This is a test message!"));
- 		sc.nextLine();
-
         for (;;)
         {
-			String msg = "", msgA = "";
-            messages = new ArrayList<>();
-
-			for(;;)
-			{
-				System.out.print("Enter messages, enter * to send all messages, or ** to close socket\n");
-				msg = sc.nextLine();
-				
-				if(msg.equals("*") || msg.equals("**"))
-				{
-					break;
-				}
-				
-				msgA = msgA + msg + "\n";
-			}
-			
-            
-            if (msg.equals("**"))
-                break;
-            messages.add(new Message(msgA));
-       
-            System.out.println("Sending Message Objects");
-            objectOutputStream.writeObject(messages);
             try {
+              //  messages = new ArrayList<>();
+              System.out.print("Enter message info. <enter> to quit\n");
+              String msg = sc.nextLine();
+              if (msg.equals("*"))
+                  break;
+      
+              System.out.println("Sending Message Objects");
+              objectOutputStream.writeObject(msg);  
+           
+                System.out.println ("Client waiting on reply");
                 String reply = (String) ois.readObject();
                 System.out.println(reply);
+              
             }catch (Exception e){
-
+                e.printStackTrace();
             }
         }
         System.out.println("Closing socket");
         socket.close();
     }
 }
-
-
