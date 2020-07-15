@@ -17,3 +17,8 @@ future we want to build some command line interface to test our code.
 We have divided the work of the project into two basic parts. The first part that my
 teammates are working on is the server side of the project. The part i am working on
 is the client side of the application. 
+
+7/15/2020
+we have finalized the SDS and SRS document for submitting. We are working on the GUI for
+the project and making sure all functions are working properly. We have divided the work
+for each team member and are currently working on testing and building the program.
