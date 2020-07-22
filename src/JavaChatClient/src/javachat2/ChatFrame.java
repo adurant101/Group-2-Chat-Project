@@ -94,7 +94,7 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
             }
         });
 
-        textMessages.setColumns(20);
+        textMessages.setColumns(25);
         textMessages.setRows(5);
         jScrollPane1.setViewportView(textMessages);
 
@@ -145,7 +145,7 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
                             .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(btnConnect))
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(56, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
