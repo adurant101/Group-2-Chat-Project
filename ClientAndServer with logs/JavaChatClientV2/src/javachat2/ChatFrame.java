@@ -70,6 +70,12 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
         lblHostName = new javax.swing.JLabel();
         lblHostName1 = new javax.swing.JLabel();
         lblHostName2 = new javax.swing.JLabel();
+        info12 = new javax.swing.JLabel();
+        info22 = new javax.swing.JLabel();
+        info32 = new javax.swing.JLabel();
+        info42 = new javax.swing.JLabel();
+        info52 = new javax.swing.JLabel();
+
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -118,7 +124,14 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
         lblHostName1.setText("User:");
 
         lblHostName2.setText("Pass:");
-
+        
+        info12.setText("Please enter @{username} with the username "
+                + "for the person to be");
+        info22.setText("searched then just one word to be sent to start chat");
+        info32.setText("Please do this after logged in successfully.");
+        info42.setText("First text box below is for messages incoming "
+                + "and");
+        info52.setText("outgoing, second text box is for sending messages");
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -147,6 +160,11 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
                             .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(btnConnect))
+                        .addComponent(info12, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(info22, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(info32, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(info42, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(info52, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)                                                      
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(56, Short.MAX_VALUE))
         );
@@ -164,6 +182,12 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
                     .addComponent(btnConnect)
                     .addComponent(lblHostName1)
                     .addComponent(lblHostName2))
+                 .addGap(20,20,20)
+                .addComponent(info12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(info22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(info32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(info42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(info52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -265,6 +289,12 @@ public class ChatFrame extends javax.swing.JFrame implements intMessage{
     private javax.swing.JTextField userName;
     private javax.swing.JLabel lblHostName1;
     private javax.swing.JLabel lblHostName2;
+    private javax.swing.JLabel info12;
+    private javax.swing.JLabel info22;
+    private javax.swing.JLabel info32;
+    private javax.swing.JLabel info42;
+    private javax.swing.JLabel info52;
+
     // End of variables declaration                   
 }
 

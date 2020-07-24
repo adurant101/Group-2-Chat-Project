@@ -1,0 +1,25 @@
+User bob is valid, logging in
+User andre is valid, logging in
+
+Mini initial search Message from bob to andre: hi
+received message: @andre hi
+sent request to start chat
+Reply Message from bob to andre: ok good
+received message: ok good
+mini sending message to andre
+Reply Message from bob to andre: dsdsf dd
+received message: dsdsf dd
+mini sending message to andre
+Reply Message from andre to bob: sdfds dff
+received message: sdfds dff
+mini sending message to bob
+Reply Message from andre to bob: sdfsd dfdf
+received message: sdfsd dfdf
+mini sending message to bob
+Reply Message from andre to bob: sfdfdssdf dffd
+received message: sfdfdssdf dffd
+mini sending message to bob
+Reply Message from andre to bob: exit598
+received message: exit598
+exit598 means sender chose to end chat for both parties
+mini sending message to bob
