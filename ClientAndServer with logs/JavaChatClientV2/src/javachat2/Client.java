@@ -41,15 +41,18 @@ public class Client extends Thread {
             String msg = checkForMessage();
             String last = "";
             //checks if recieved end chat message, ends program (gui chat)
-            last = msg.substring(msg.length() - 8);
-            if(last.equals("exit598\n"))
+            if(!(msg.equals("\n")))
             {
-                JOptionPane.showMessageDialog(null, 
-                              "Ending program", 
-                              "Other user chose to end", 
-                              JOptionPane.WARNING_MESSAGE);
-                System.out.println("Ending program, other user quit");
-                System.exit(0);
+                last = msg.substring(msg.length() - 8);
+                if(last.equals("exit598\n"))
+                {
+                    JOptionPane.showMessageDialog(null, 
+                                  "Ending program", 
+                                  "Other user chose to end", 
+                                  JOptionPane.WARNING_MESSAGE);
+                    System.out.println("Ending program, other user quit");
+                    System.exit(0);
+                }
             }
             //sends message to other user
             messages += msg;
