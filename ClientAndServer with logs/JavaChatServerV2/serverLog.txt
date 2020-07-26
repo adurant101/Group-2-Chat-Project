@@ -4,20 +4,23 @@ User andre is valid, logging in
 Mini initial search Message from bob to andre: hi
 received message: @andre hi
 sent request to start chat
-Reply Message from bob to andre: ok good
-received message: ok good
+Reply Message from bob to andre: ok
+received message: ok
 mini sending message to andre
-Reply Message from bob to andre: dsdsf dd
-received message: dsdsf dd
+Reply Message from bob to andre: hhiui huh hu 
+received message: hhiui huh hu 
 mini sending message to andre
-Reply Message from andre to bob: sdfds dff
-received message: sdfds dff
+Reply Message from bob to andre: huynhyuh jhjui hj 
+received message: huynhyuh jhjui hj 
+mini sending message to andre
+Reply Message from andre to bob: hunnhuj hj jh b
+received message: hunnhuj hj jh b
 mini sending message to bob
-Reply Message from andre to bob: sdfsd dfdf
-received message: sdfsd dfdf
+Reply Message from andre to bob: hu jhjun hjhj
+received message: hu jhjun hjhj
 mini sending message to bob
-Reply Message from andre to bob: sfdfdssdf dffd
-received message: sfdfdssdf dffd
+Reply Message from andre to bob: nhujnhuiui jhhujh jh
+received message: nhujnhuiui jhhujh jh
 mini sending message to bob
 Reply Message from andre to bob: exit598
 received message: exit598

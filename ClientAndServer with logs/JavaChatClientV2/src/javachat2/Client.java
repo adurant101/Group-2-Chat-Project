@@ -1,3 +1,4 @@
+//Final Project
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -20,7 +21,8 @@ public class Client extends Thread {
 
     public Client() {
     }
-
+    
+    //normal constructor to take username, password, host ip, and message
     public Client(String user, String pwd, String host, intMessage msg) {
         try {
             messages = connect(user, pwd, host);
@@ -31,14 +33,15 @@ public class Client extends Thread {
             msg.setServerMessage(e.getMessage());
         }
     }
-
+    
+    //run client send and receive messages, login
     public void run() {
         for (;;) {
+            //check for new messages
             String msg = checkForMessage();
-        //    System.out.println(msg);
             String last = "";
+            //checks if recieved end chat message, ends program (gui chat)
             last = msg.substring(msg.length() - 8);
-            //System.out.println(last);
             if(last.equals("exit598\n"))
             {
                 JOptionPane.showMessageDialog(null, 
@@ -48,6 +51,7 @@ public class Client extends Thread {
                 System.out.println("Ending program, other user quit");
                 System.exit(0);
             }
+            //sends message to other user
             messages += msg;
             if (msg==null){
                 client.setServerMessage("Server connection lost");
@@ -58,16 +62,17 @@ public class Client extends Thread {
             messages = "";
         }
     }
-
+    
+    //get messages
     public String getMessages() {
         return messages;
     }
 
+    //gets username and password and host ip, returns validity of login info
     public String connect(String userName, String password, String host) throws IOException {
         String cred = String.format("%s~%s", userName, password);
-        int port = 2343;//sc.nextInt();
+        int port = 2343;
         socket = new Socket(host, port);
-
         outputStream = socket.getOutputStream();
         objectOutputStream = new ObjectOutputStream(outputStream);
         try {
@@ -77,21 +82,21 @@ public class Client extends Thread {
             return message;
         } catch (Exception e) {
             System.exit(0);
-            //return e.getMessage();
         }
         return null;
     }
-
+    
+    //checks for message from other user
     public String checkForMessage() {
         try {
             String reply = (String) ois.readObject();
             return reply;
         } catch (Exception e) {
-         //System.exit(0);            
             return e.getMessage();
         }
     }
-
+    
+    //send message to other user through server
     public String sendMessage(String msg) {
         try {
             objectOutputStream.writeObject(msg);

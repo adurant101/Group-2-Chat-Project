@@ -1,3 +1,4 @@
+//Final Project
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,35 +12,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainServer {
-
-  
+    
     private static List<MiniServer> users = new ArrayList<MiniServer>();
     private static File file1;
-   // private static FileWriter writeTo;
-
-
- 
+    
+    //to search for user to chat with
     public static MiniServer requestChat(String user, String message, MiniServer sender)
     {
         System.out.printf ("Receiptent: {%s}\n",user);
         String s = "Receiptent: " + user + "\n";
         try
         {
-                    FileWriter writeTo = new FileWriter("serverLog.txt",true);
-
-           writeTo.write(s);
-        
-//user="test";
-        for (MiniServer ms : users)
-        {
-            if (user.equals(ms.getUser().getUsername()))
+            FileWriter writeTo = new FileWriter("serverLog.txt",true);
+            writeTo.write(s);
+            
+            //checks if valid username and password
+            for (MiniServer ms : users)
             {
-                System.out.println ("Found: "+ms.getUser().getUsername() + " Sending Message");
-                writeTo.write("Found: "+ms.getUser().getUsername() + " Sending Message\n");
-                ms.message(sender, message);
-                return ms;
+                if (user.equals(ms.getUser().getUsername()))
+                {
+                    System.out.println ("Found: "+ms.getUser().getUsername() + " Sending Message");
+                    writeTo.write("Found: "+ms.getUser().getUsername() + " Sending Message\n");
+                    ms.message(sender, message);
+                    return ms;
+                }
             }
-        }
             writeTo.close();
 
         }
@@ -50,6 +47,8 @@ public class MainServer {
         System.out.printf ("Not Found {%}\n", user);
         return null;
     }
+    
+    //run mainserver
     public static void main(String[] args) throws IOException {
         loadUsers();
                try{
@@ -74,15 +73,16 @@ public class MainServer {
             System.err.println("Could not listen on port: 2343");
         }
         while(listeningSocket){
+            //gets incoming connections from client
             Socket clientSocket = serverSocket.accept();
-
-            //System.out.println("client");
             MiniServer mini = new MiniServer(clientSocket);
             users.add(mini);
             mini.start();
         }
         serverSocket.close();       
     }    
+    
+    //list of users in server for client to login
     private static List<User>userList = new ArrayList<User>();
     private static void loadUsers()
     {
@@ -91,27 +91,27 @@ public class MainServer {
         userList.add(new User("jeff", "123"));
         userList.add(new User("andre", "123"));
     }
+    
+    //check if user is valid user
     public static User getUser (String un, String p)
     {
         System.out.printf("Get User: %s/%s\n", un,p);
         for (User u : userList)
         {
+            //checks for valid username and password
             if (u.isValid(un, p))
             {
-               System.out.println("User " + un + " is valid, logging in");
+                System.out.println("User " + un + " is valid, logging in");
                 try
                 {
-                           FileWriter writeTo = new FileWriter("serverLog.txt",true);
-
-                            
+                    FileWriter writeTo = new FileWriter("serverLog.txt",true);                            
                     writeTo.write("User " + un + " is valid, logging in\n");
                     writeTo.close();
                 }
                 catch(IOException e)
                 {
                     
-                }
-            
+                }            
                return u;
             }
         }
