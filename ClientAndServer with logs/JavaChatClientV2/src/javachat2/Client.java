@@ -40,20 +40,20 @@ public class Client extends Thread {
             //check for new messages
             String msg = checkForMessage();
             String last = "";
-            //checks if recieved end chat message, ends program (gui chat)
-            if(!(msg.equals("\n")))
+            System.out.println("."+msg+",");
+            //checks if recieved end chat message, ends program (gui chat) 
+          
+            last = msg.substring(msg.length() - 8);
+            if(last.equals("exit598\n"))
             {
-                last = msg.substring(msg.length() - 8);
-                if(last.equals("exit598\n"))
-                {
-                    JOptionPane.showMessageDialog(null, 
-                                  "Ending program", 
-                                  "Other user chose to end", 
-                                  JOptionPane.WARNING_MESSAGE);
-                    System.out.println("Ending program, other user quit");
-                    System.exit(0);
-                }
+                JOptionPane.showMessageDialog(null, 
+                              "Ending program", 
+                              "Other user chose to end", 
+                              JOptionPane.WARNING_MESSAGE);
+                System.out.println("Ending program, other user quit");
+                System.exit(0);
             }
+            
             //sends message to other user
             messages += msg;
             if (msg==null){
@@ -61,7 +61,9 @@ public class Client extends Thread {
                 break;
             }
             else
-                client.setServerMessage(msg);
+            {               
+                client.setServerMessage(msg);               
+            }
             messages = "";
         }
     }
