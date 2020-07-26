@@ -41,8 +41,8 @@ public class Client extends Thread {
             String msg = checkForMessage();
             String last = "";
             System.out.println("."+msg+",");
+            
             //checks if recieved end chat message, ends program (gui chat) 
-          
             last = msg.substring(msg.length() - 8);
             if(last.equals("exit598\n"))
             {
