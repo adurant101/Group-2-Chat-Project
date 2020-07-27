@@ -22,3 +22,8 @@ is the client side of the application.
 we have finalized the SDS and SRS document for submitting. We are working on the GUI for
 the project and making sure all functions are working properly. We have divided the work
 for each team member and are currently working on testing and building the program.
+
+7/27/2020
+We have completed the final phase of the project and submitted our group project on to
+blackboard. we have made some slight adjustments to the project to make it look more 
+clean. this is the final git log.
