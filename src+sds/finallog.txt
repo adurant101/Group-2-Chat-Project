@@ -1,0 +1,403 @@
+commit 9cbaf1a91b63dcc775db511b31260570292b9206
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Mon Jul 27 13:19:42 2020 -0700
+
+    cleaning
+
+commit 0984c53762779a3a3f7f1ba357f86b3415590e3e
+Merge: 8d855aa ec5f6e9
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Mon Jul 27 12:46:44 2020 -0700
+
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 8d855aaefb3d46782553964dd3bcf2574f212f67
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Mon Jul 27 12:44:48 2020 -0700
+
+    GitLog.txt
+
+commit ec5f6e9d17e8b3adc28a92cef4431c19e0a63057
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sun Jul 26 01:06:34 2020 -0700
+
+    fix
+
+commit bd477af8700e440ebc4887e5e36a98a0be950da6
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sun Jul 26 01:05:50 2020 -0700
+
+    fix
+
+commit 598b10d55c7a046429c410c692ec5424952f3b74
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sun Jul 26 00:52:23 2020 -0700
+
+    cleanup comments
+
+commit a5a4a73f3faf5f701a458675b9b579a292015608
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sun Jul 26 00:35:06 2020 -0700
+
+    junit and comments final proj
+
+commit 5aee7909d219cbfdc858871133527d428ff164ee
+Author: adurant101 <adurant101@gmail.com>
+Date:   Fri Jul 24 11:46:45 2020 -0700
+
+    new server and client with logs to output file and updated gui
+
+commit 32e24d386a54cf8bb11b05b70c5bca7932712265
+Author: adurant101 <adurant101@gmail.com>
+Date:   Thu Jul 23 15:25:53 2020 -0700
+
+    end program working client
+
+commit f33a71d92a7e8455c135061e4dcf69e938600c12
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Tue Jul 21 17:58:22 2020 -0700
+
+    Final Version 1.0
+
+commit 353d845cd4fe936a328bdb6b9e440f3faf5ad459
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sat Jul 18 20:18:24 2020 -0700
+
+    no login in chat
+
+commit 8aa1116f674b8ca610e0ed3eee2f0ea777ae9111
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Sat Jul 18 19:23:35 2020 -0700
+
+    finishin touch
+
+commit 377cc14e16deb1aaa7733b22c7995bb987201a60
+Author: adurant101 <adurant101@gmail.com>
+Date:   Sat Jul 18 16:57:36 2020 -0700
+
+    no zip
+
+commit f7d3c0307248bbc2774300c1b9449bdfb2213126
+Author: adurant101 <adurant101@gmail.com>
+Date:   Thu Jul 16 17:46:43 2020 -0700
+
+    functioning gui client2cli
+
+commit 5a7fbbf4080386db470997cc0396b26085cca78a
+Author: adurant101 <adurant101@gmail.com>
+Date:   Thu Jul 16 16:06:50 2020 -0700
+
+    netbeans project
+
+commit a2746a0ea55a9efb9571a4fbf97afd871270aef9
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jul 15 15:57:20 2020 -0700
+
+    phase 5
+
+commit 6cef49dda00fcf16ea40123b27c98921db2de289
+Merge: 6be6dc3 e8eeb01
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jul 15 15:55:15 2020 -0700
+
+    git log
+
+commit e8eeb0186b094470d921ff771824b4533c7b1c7c
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 15:49:58 2020 -0700
+
+    clean
+
+commit 5c0d7cec0684709ef04e601652e1c15376f03994
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 15:49:17 2020 -0700
+
+    clean
+
+commit a810736c4d7a52bb9aee0aa9815a2bf175a66cf3
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 15:41:16 2020 -0700
+
+    GUI
+
+commit 929c95139a93c69105f336bbe5b4d69116d7a679
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Wed Jul 15 15:22:51 2020 -0700
+
+    srs&sds
+
+commit 6be6dc3b907bb5542b53ca0a27b757c60808592a
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jul 15 15:19:22 2020 -0700
+
+    Phase 5
+
+commit a0ec453ae83ae5910f0633e7348c6d2204761004
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Wed Jul 15 15:14:39 2020 -0700
+
+    unnecessary
+
+commit fedc2c7729538ef266a62d801dd14aa6e80e58f9
+Author: apyaks123 <54964779+apyaks123@users.noreply.github.com>
+Date:   Wed Jul 15 14:29:16 2020 -0700
+
+    Create sample
+
+commit ba837c1b5b147e7c74135cb97ccedfc4727b0610
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 00:40:52 2020 -0700
+
+    update1
+
+commit 9a33d3079267731fed3ea4208055b13144ca7dd2
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 00:39:39 2020 -0700
+
+    delete
+
+commit 5defc93d5870f498621961a2fd1d1f64a4b65cca
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 00:38:12 2020 -0700
+
+    delete
+
+commit cd7ea6642901a9259a5a2d06a2928fbf9cd9f497
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 00:36:24 2020 -0700
+
+    delete
+
+commit baf7db0282321eabd26280543dda28cad4583c08
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Wed Jul 15 00:32:50 2020 -0700
+
+    all junit stuff
+
+commit 5e7ea4cd816d50259fd75e09b3634a2ef916b422
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Wed Jul 15 00:31:19 2020 -0700
+
+    junits
+
+commit 40406f7026cc3ca69b6ac82003d60a1b30daafdf
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Wed Jul 15 00:30:29 2020 -0700
+
+    Delete junit files.
+
+commit fba8d6a80a3c408dcc61b96055b191e27685cc4e
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Wed Jul 15 00:30:00 2020 -0700
+
+    junit1
+
+commit f045ed066c6ebcace83b8488c7e02d02c421e256
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 15 00:25:02 2020 -0700
+
+    junit
+
+commit f6587d91eed682b198af425d32cd9257f9f7071e
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Sat Jul 11 16:13:25 2020 -0700
+
+    files server
+    
+    server workin for now starting client
+
+commit 48a32f12e219dd839488b3fc2efdc52792a366bc
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Fri Jul 10 22:14:01 2020 -0700
+
+    test12
+
+commit e3768eeac184815511f381d25ad1ea9579ae9a3e
+Author: apyaks123 <54964779+apyaks123@users.noreply.github.com>
+Date:   Thu Jul 9 14:06:22 2020 -0700
+
+    Add files via upload
+
+commit 19dc1d0f836410cb28301101e386c8ab17492b5c
+Author: apyaks123 <54964779+apyaks123@users.noreply.github.com>
+Date:   Wed Jul 8 17:50:47 2020 -0700
+
+    Create Multichat-application
+
+commit 134a8cec7163b6884e3917b21e8f16aa67828757
+Merge: 024fdb3 bd403c1
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jul 8 14:54:22 2020 -0700
+
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 024fdb31c0eb0d4433041e1d4f41d3bd045a5f5f
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jul 8 14:42:16 2020 -0700
+
+    Git Log Update
+
+commit bd403c1b2e34beaa2ecc46cf88930977496d1163
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Wed Jul 8 13:49:33 2020 -0700
+
+    too many srs
+
+commit c5046554a67ed4296fc662e69f35e9d15fa58450
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Wed Jul 8 13:47:21 2020 -0700
+
+    remove uml2.jpeg
+
+commit 459cecaefce6d4e9798c43625ad03354f975db5c
+Merge: 5e202c0 451ac0c
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 8 13:39:43 2020 -0700
+
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 5e202c0bccb3d8a2ad55f438c1265fecd4dd260c
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jul 8 13:39:22 2020 -0700
+
+    Update Server
+
+commit 451ac0c35cfe70a1e11fca76796d38966a4d8b10
+Author: surajsherchan <41652804+surajsherchan@users.noreply.github.com>
+Date:   Thu Jun 25 11:18:12 2020 -0700
+
+    Add files via upload
+    
+    part 4
+
+commit 326ed31ae2a28854f03ad2bd7839cd512ea65629
+Author: apyaks123 <pyakurelabhishek8@gmail.com>
+Date:   Wed Jun 24 13:49:48 2020 -0700
+
+    final uml
+
+commit 6c1411585be47650f87640ff5237b8df4474d99e
+Merge: 9740ae0 a9b0b97
+Author: apyaks123 <pyakurelabhishek8@gmail.com>
+Date:   Wed Jun 24 13:39:08 2020 -0700
+
+    Attempt
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit a9b0b97d35e8f9455d270dc0ff12065ffebcd97a
+Author: mohammedabbas15 <abbas.a.mohammed95@gmail.com>
+Date:   Wed Jun 24 13:06:01 2020 -0700
+
+    test
+
+commit 9740ae02feeba3c766a24787c7952dad5a6ee90d
+Author: apyaks123 <pyakurelabhishek8@gmail.com>
+Date:   Wed Jun 24 12:24:43 2020 -0700
+
+    Final uml
+
+commit 238196415f4d8ef06a5837751bcd2dd79039209b
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 24 02:53:17 2020 -0700
+
+    umlNext
+
+commit b39521b4bbb0de50b78ef18424c4a790d8b52a15
+Merge: 7cbdf7c 0a217f3
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 24 02:23:32 2020 -0700
+
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 7cbdf7c3035643621a3c08b244539e76bc1235b5
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 24 02:22:30 2020 -0700
+
+    mainServ.java
+
+commit 0a217f32f89e283ed35a82d6a9071e9405ac44f5
+Author: Mohammed Abbas <abbas.a.mohammed95@gmail.com>
+Date:   Tue Jun 16 20:57:24 2020 -0700
+
+    Add files via upload
+
+commit e454d228b8e14ecbbebdac4f06051f4666dbb044
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Tue Jun 16 18:19:12 2020 -0700
+
+    update-schedule
+
+commit 9ed773ef72cb8de19434846d6a557805fe6d2376
+Merge: 6cb4d79 a9b9b67
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Tue Jun 16 16:35:23 2020 -0700
+
+    exists
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 6cb4d799deda42748ea3d7971cb0f995baebba69
+Author: Abhishek Pyakurel <pyakurelabhishek8@gmail.com>
+Date:   Tue Jun 16 16:31:19 2020 -0700
+
+    Abhishek-part3
+
+commit a9b9b670af2e447aca7e3e3a04962741323ce00f
+Author: adurant101 <adurant101@gmail.com>
+Date:   Tue Jun 16 00:30:52 2020 -0700
+
+    remove
+
+commit 2af6085a12e18d76f17266200720bc018aa4f1cb
+Merge: 6e221b7 ec60a6e
+Author: adurant101 <adurant101@gmail.com>
+Date:   Tue Jun 16 00:27:59 2020 -0700
+
+    Merge branch 'master' of https://github.com/adurant101/Group-2-Chat-Project
+
+commit 6e221b791e2d4f2dd82e0e7fbc03b49811e27725
+Author: adurant101 <adurant101@gmail.com>
+Date:   Tue Jun 16 00:23:34 2020 -0700
+
+    scheduleTest
+
+commit ec60a6e181c523571a606d85fc17e1acf6cbcac6
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Tue Jun 16 00:15:54 2020 -0700
+
+    Create test.txt
+
+commit 6ed7c158a1b2738c2e2b0bd0bea1f077ae362cce
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 10 22:38:10 2020 -0700
+
+    Testing!
+
+commit d0077a8962702da17450c792f571a2ce86dac473
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 10 22:33:58 2020 -0700
+
+    Testing!
+
+commit 329b82fa901b00fb31496d457e13a28b26fb902d
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 10 22:22:17 2020 -0700
+
+    Testing!
+
+commit 23d133e75907cd9ad834232636bb0a3e11c34997
+Author: Andre Durant <56659807+adurant101@users.noreply.github.com>
+Date:   Wed Jun 10 22:18:50 2020 -0700
+
+    Delete fishin.java
+
+commit 850419ad27f26b74eb94a330974b4705ab28248e
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 10 22:06:42 2020 -0700
+
+    Initial Commit
+
+commit 2bddd3f905365174993533fde029ba36077ea1ba
+Author: adurant101 <adurant101@gmail.com>
+Date:   Wed Jun 10 21:32:01 2020 -0700
+
+    Initial Commit
